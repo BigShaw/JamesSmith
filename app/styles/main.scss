@@ -4,7 +4,8 @@
 @import 'mixin';
 
 
-
+$iframe-width: 100%;
+$iframe-height: $iframe-width*9/16; 
 
 
 
@@ -226,17 +227,17 @@ section{
   width: 100%;
 
 
-.work-title{
-background-color: black;
-color: white;
-float: left;
-padding:10px 20px;
-font-size: 1.5rem;
-font-weight: bold;
-margin-bottom:10px;
-}
+  .work-title{
+    background-color: black;
+    color: white;
+    float: left;
+    padding:10px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom:10px;
+  }
 
-p{width:40%}
+  p{width:40%}
 
 
 }
@@ -249,6 +250,12 @@ p{width:40%}
   height: auto;
   display: inline-block;
   vertical-align: top;
+
+  iframe{
+    width: 98% !important;
+    height: 100% !important;
+    min-height: 400px;
+  }
 }
 
 .width-60{
