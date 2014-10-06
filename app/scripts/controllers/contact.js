@@ -9,9 +9,6 @@
  */
 angular.module('jamesApp')
   .controller('ContactCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+            var cusid_ele = document.getElementsByClassName('siteNav');
+            cusid_ele[0].style.display = 'block';
   });

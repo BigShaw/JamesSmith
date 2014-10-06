@@ -8,10 +8,8 @@
  * Controller of the jamesApp
  */
 angular.module('jamesApp')
-  .controller('WorkCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+        .controller('WorkCtrl', function($scope) {
+            var cusid_ele = document.getElementsByClassName('siteNav');
+            cusid_ele[0].style.display = 'block';
+
+        });
