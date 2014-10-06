@@ -1,0 +1,382 @@
+/* line 1, ../../app/styles/coverHover.scss */
+.view-tenth img {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+  transition: all 0.7s ease-in-out;
+}
+
+/* line 13, ../../app/styles/coverHover.scss */
+.view-tenth .mask {
+  background-color: black;
+  transition: all 0.5s linear;
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+
+/* line 25, ../../app/styles/coverHover.scss */
+.view-tenth h2 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  background: transparent;
+  margin: 20px auto;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  color: #fff;
+  transition: all 0.5s linear;
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+
+/* line 44, ../../app/styles/coverHover.scss */
+.view-tenth p {
+  color: #fff;
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  transition: all 0.5s linear;
+  margin: 0 30px;
+  height: 60px;
+  overflow: hidden;
+}
+
+/* line 67, ../../app/styles/coverHover.scss */
+.view-tenth:hover img {
+  -webkit-transform: scale(10);
+  transform: scale(10);
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+}
+
+/* line 77, ../../app/styles/coverHover.scss */
+.view-tenth:hover .mask {
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  opacity: 1;
+}
+
+/* line 82, ../../app/styles/coverHover.scss */
+.view-tenth:hover h2, .view-tenth:hover p, .view-tenth:hover a.info {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -ms-filter: "progid: DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  opacity: 1;
+}
+
+/* line 11, ../../app/styles/main.scss */
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* line 21, ../../app/styles/main.scss */
+body {
+  font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  font-style: normal;
+  color: #333332;
+  font-size: 18px;
+  line-height: 1.4;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 36, ../../app/styles/main.scss */
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+/* line 42, ../../app/styles/main.scss */
+a {
+  color: inherit;
+  text-decoration: none;
+  background: transparent;
+}
+
+/* line 48, ../../app/styles/main.scss */
+h1, h2, h3, h4, h5, h6, dl, dd, ol, ul, menu, figure, blockquote, p, pre, form {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  list-style-image: none;
+}
+
+/* line 55, ../../app/styles/main.scss */
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+/* line 60, ../../app/styles/main.scss */
+h1, h2, h3, h4 {
+  font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* line 67, ../../app/styles/main.scss */
+p {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+/* line 75, ../../app/styles/main.scss */
+img {
+  width: 100%;
+}
+
+/* line 80, ../../app/styles/main.scss */
+main {
+  border-radius: 10px;
+  position: fixed;
+  background-color: white;
+  width: 95%;
+  height: 92%;
+  bottom: -2%;
+  margin: auto;
+  left: 0;
+  right: 0;
+  padding: 30px;
+  overflow: auto;
+}
+
+/* line 95, ../../app/styles/main.scss */
+section {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+}
+
+/* line 110, ../../app/styles/main.scss */
+.two-col {
+  width: 48%;
+}
+
+/* line 123, ../../app/styles/main.scss */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 136, ../../app/styles/main.scss */
+.siteNav {
+  width: 100%;
+  padding: 15px 30px 10px 50px;
+}
+/* line 141, ../../app/styles/main.scss */
+.siteNav ul li {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+}
+
+/* line 159, ../../app/styles/main.scss */
+#video_background {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1000;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+/* line 172, ../../app/styles/main.scss */
+.homeBigMenu, .menu-blog, .menu-work, .menu-about, .menu-contact {
+  position: fixed;
+  cursor: pointer;
+  height: 15%;
+}
+
+/* line 174, ../../app/styles/main.scss */
+.menu-blog {
+  width: 20%;
+  top: 57%;
+  left: 25%;
+}
+
+/* line 181, ../../app/styles/main.scss */
+.menu-work {
+  width: 20%;
+  top: 38%;
+  left: 26%;
+}
+
+/* line 188, ../../app/styles/main.scss */
+.menu-about {
+  width: 22%;
+  top: 39%;
+  right: 29%;
+}
+
+/* line 196, ../../app/styles/main.scss */
+.menu-contact {
+  width: 30%;
+  top: 57%;
+  right: 21%;
+}
+
+@media (min-aspect-ratio: 16 / 9) {
+  /* line 207, ../../app/styles/main.scss */
+  #video_background {
+    width: 100%;
+    height: auto;
+    /* actually taller than viewport */
+  }
+}
+@media (max-aspect-ratio: 16 / 9) {
+  /* line 213, ../../app/styles/main.scss */
+  #video_background {
+    width: auto;
+    /* actually wider than viewport */
+    height: 100%;
+  }
+}
+/* line 224, ../../app/styles/main.scss */
+.work-info-wrapper {
+  width: 100%;
+}
+/* line 80, ../../app/styles/mixin.scss */
+.work-info-wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 229, ../../app/styles/main.scss */
+.work-info-wrapper .work-title {
+  background-color: black;
+  color: white;
+  float: left;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+/* line 239, ../../app/styles/main.scss */
+.work-info-wrapper p {
+  width: 40%;
+}
+
+/* line 247, ../../app/styles/main.scss */
+.half-width-col {
+  width: 49%;
+  height: auto;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* line 254, ../../app/styles/main.scss */
+.width-60 {
+  width: 60%;
+}
+
+/* line 258, ../../app/styles/main.scss */
+.width-40 {
+  width: 39%;
+}
+
+/* line 267, ../../app/styles/main.scss */
+.aboutJames {
+  width: 30%;
+}
+
+/* line 273, ../../app/styles/main.scss */
+.aboutPortrait {
+  margin-bottom: 20px;
+}
+
+/* line 279, ../../app/styles/main.scss */
+.CVwrapper {
+  width: 65%;
+  float: right;
+  height: 100%;
+  position: relative;
+}
+
+/* line 286, ../../app/styles/main.scss */
+.CVcontainer {
+  width: 100%;
+  height: calc(100% - 100px);
+  margin-top: 20px;
+  display: block;
+  position: relative;
+  overflow: auto;
+}
+/* line 296, ../../app/styles/main.scss */
+.CVcontainer table {
+  width: 100%;
+}
+/* line 301, ../../app/styles/main.scss */
+.CVcontainer table tr td p {
+  margin: 5px auto 20px;
+}
+/* line 303, ../../app/styles/main.scss */
+.CVcontainer table tr td:first-child {
+  width: 70%;
+}
+/* line 311, ../../app/styles/main.scss */
+.CVcontainer td.header {
+  text-decoration: underline;
+  font-size: 15px;
+}
+/* line 316, ../../app/styles/main.scss */
+.CVcontainer td.period {
+  float: right;
+  font-size: 15px;
+  font-style: italic;
+}
+
+/* line 329, ../../app/styles/main.scss */
+.contact-detail {
+  width: 400px;
+  margin: auto;
+  top: 40%;
+  text-align: center;
+  position: relative;
+}
+
+/* line 341, ../../app/styles/main.scss */
+.work-page-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* line 348, ../../app/styles/main.scss */
+.work-cover-wrapper {
+  width: 31%;
+  height: 200px;
+  margin: 10px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  box-shadow: 1px 1px 2px 0 #e6e6e6;
+  cursor: pointer;
+}
+/* line 361, ../../app/styles/main.scss */
+.work-cover-wrapper .mask {
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  padding: 10px 20px;
+  color: #fff;
+}
