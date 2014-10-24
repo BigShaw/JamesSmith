@@ -1,6 +1,4 @@
 
-@import 'coverHover';
-
 @import 'mixin';
 
 
@@ -19,9 +17,9 @@ html, body {
 
 
 body {
-  font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
-  letter-spacing: -0.02em;
-  font-weight: 400;
+  font-family: "Helvetica", Arial, sans-serif; 
+   font-weight: 400;
+   letter-spacing: -0.02em;
   font-style: normal;
   color: #333332;
   font-size: 18px;
@@ -58,14 +56,20 @@ li{
 }
 
 h1,h2,h3,h4{
-  font-family: "jaf-bernino-sans","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
-  letter-spacing: -0.02em;
+  font-family: "Helvetica", Arial, sans-serif; 
   font-weight: 700;
   font-style: normal;
 }
 
+h1{font-size: 32px;}
+h2{font-size: 28px;}
+h3{font-size: 24px;}
+h4{font-size: 20px;}
+h5{font-size: 18px;}
+h6{font-size: 14px;}
+
 p{
-  font-size: 15px;
+  font-size: 12px;
   margin-bottom: 5px;
 }
 
@@ -135,14 +139,14 @@ section{
 
 .siteNav{
   width:100%;
-  padding: 15px 30px 10px 50px;
+  padding: 30px 30px 10px 50px;;
 
   ul{
     li{
       display: inline-block;
       margin: 0 10px;
       font-size: 1.5rem;
-      color: white;
+      color: #333;
       font-weight: bold;
     }
   }
@@ -226,6 +230,12 @@ section{
   width: 100%;
 
 
+p{width:40%}
+
+
+}
+
+
 .work-title{
 background-color: black;
 color: white;
@@ -234,11 +244,6 @@ padding:10px 20px;
 font-size: 1.5rem;
 font-weight: bold;
 margin-bottom:10px;
-}
-
-p{width:40%}
-
-
 }
 
 
@@ -348,7 +353,8 @@ p{width:40%}
 .work-cover-wrapper{
   width:31%;
   height: 200px;
-  margin: 10px;
+  margin-bottom: 20px;
+  margin-right: 25px;
   float: left;
 
   overflow: hidden;
@@ -359,14 +365,19 @@ p{width:40%}
 
 
   .mask{
+    @include transition(all, 0.3s, ease-in-out);
     width: 100%;
     height: 200px;
     position: absolute;
     overflow: hidden;
     top: 0;
     left: 0;
-    padding:10px 20px;
+    padding:40px 20px;
     color: #fff;
+    background-color:#212121;
+    opacity: 0;
+
+    &:hover{opacity:.9}
   }
 
 }
@@ -375,5 +386,50 @@ p{width:40%}
 
 
 
+
+
+
+
+/*================================MEDIA QUERIES FROM HERE=======================================*/
+
+
+
+/* Landscape phones and down */
+
+@media (max-width: 480px) { 
+
+
+
+
+
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+
+
+
+
+
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+
+
+
+
+
+}
+
+/* Large desktop */
+@media (min-width: 1340px) { 
+ 
+p{font-size:15px;}
+
+
+
+}
 
 
