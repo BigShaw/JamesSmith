@@ -102,6 +102,7 @@ main {
   position: fixed;
   background-color: white;
   width: 95%;
+  top: 100px;
   height: 92%;
   bottom: -2%;
   margin: auto;
@@ -111,40 +112,39 @@ main {
   overflow: auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003100}}
 section {
   display: inline-block;
   vertical-align: top;
   width: 100%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003115}}
 .two-col {
   width: 48%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003128}}
 .clearfix:after {
   content: "";
   display: table;
   clear: both;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003141}}
 .siteNav {
   width: 100%;
   padding: 30px 30px 10px 50px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003145}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003146}}
 .siteNav ul li {
   display: inline-block;
   margin: 0 10px;
   font-size: 1.5rem;
-  color: #333;
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003163}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003164}}
 #video_background {
   position: fixed;
   top: 0;
@@ -156,35 +156,35 @@ section {
   object-fit: cover;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003176}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003177}}
 .homeBigMenu, .menu-blog, .menu-work, .menu-about, .menu-contact {
   position: fixed;
   cursor: pointer;
   height: 15%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003178}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003179}}
 .menu-blog {
   width: 20%;
   top: 57%;
   left: 25%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003185}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003186}}
 .menu-work {
   width: 20%;
   top: 38%;
   left: 26%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003192}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003193}}
 .menu-about {
   width: 22%;
   top: 39%;
   right: 29%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003200}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003201}}
 .menu-contact {
   width: 30%;
   top: 57%;
@@ -192,7 +192,7 @@ section {
 }
 
 @media (min-aspect-ratio: 16 / 9) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003211}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003212}}
   #video_background {
     width: 100%;
     height: auto;
@@ -200,14 +200,14 @@ section {
   }
 }
 @media (max-aspect-ratio: 16 / 9) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003217}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003218}}
   #video_background {
     width: auto;
     /* actually wider than viewport */
     height: 100%;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003228}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003229}}
 .work-info-wrapper {
   width: 100%;
 }
@@ -217,12 +217,12 @@ section {
   display: table;
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003233}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003234}}
 .work-info-wrapper p {
   width: 40%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003239}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003240}}
 .work-title {
   background-color: black;
   color: white;
@@ -233,7 +233,7 @@ section {
   margin-bottom: 10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003252}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003253}}
 .half-width-col {
   width: 49%;
   height: auto;
@@ -241,27 +241,27 @@ section {
   vertical-align: top;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003259}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003260}}
 .width-60 {
   width: 60%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003263}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003264}}
 .width-40 {
   width: 39%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003272}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003273}}
 .aboutJames {
   width: 30%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003278}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003279}}
 .aboutPortrait {
   margin-bottom: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003284}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003285}}
 .CVwrapper {
   width: 65%;
   float: right;
@@ -269,7 +269,7 @@ section {
   position: relative;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003291}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003292}}
 .CVcontainer {
   width: 100%;
   height: calc(100% - 100px);
@@ -278,31 +278,31 @@ section {
   position: relative;
   overflow: auto;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003301}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003302}}
 .CVcontainer table {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003306}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003307}}
 .CVcontainer table tr td p {
   margin: 5px auto 20px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003308}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003309}}
 .CVcontainer table tr td:first-child {
   width: 70%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003317}}
 .CVcontainer td.header {
   text-decoration: underline;
   font-size: 15px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003322}}
 .CVcontainer td.period {
   float: right;
   font-size: 15px;
   font-style: italic;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003335}}
 .contact-detail {
   width: 400px;
   margin: auto;
@@ -311,14 +311,14 @@ section {
   position: relative;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003347}}
 .work-page-wrapper {
   width: 100%;
   height: 100%;
   position: relative;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003354}}
 .work-cover-wrapper {
   width: 31%;
   height: 200px;
@@ -331,7 +331,7 @@ section {
   box-shadow: 1px 1px 2px 0 #e6e6e6;
   cursor: pointer;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003368}}
 .work-cover-wrapper .mask {
   transition: all 0.3s ease-in-out;
   width: 100%;
@@ -345,9 +345,16 @@ section {
   background-color: #212121;
   opacity: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003381}}
 .work-cover-wrapper .mask:hover {
   opacity: .9;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003387}}
+.current-page {
+  background-color: #000;
+  padding: 10px 30px;
+  color: white;
 }
 
 /*================================MEDIA QUERIES FROM HERE=======================================*/
@@ -356,7 +363,7 @@ section {
 /* Portrait tablet to landscape and desktop */
 /* Large desktop */
 @media (min-width: 1340px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003429}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/ayakaqinwen\/JamesSmith\/app\/styles\/main\.scss}line{font-family:\00003434}}
   p {
     font-size: 15px;
   }
